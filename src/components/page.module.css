@@ -1,0 +1,26 @@
+.userAvatar{
+    width: 96px;
+    height: 96px;
+    display: block;
+    margin: 35px auto 20px;
+    border-radius: 50%;
+}
+
+.userName{
+    color: #bbb;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.links{
+    max-width: 675px;
+    width: auto;
+    display: block;
+    margin: 27px auto;
+}
