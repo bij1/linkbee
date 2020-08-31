@@ -5,9 +5,9 @@ module.exports = {
     title: `linkbee`,
     siteUrl: process.env.SITE_URL || process.env.URL || 'http://localhost:8000',
     user: {
-      name: `user`,
-      link: `#`,
-      avatar: `#`
+      name: `@politiek_bij1`,
+      link: `https://www.instagram.com/politiek_bij1/`,
+      avatar: `avatar.png`
     }
   },
   plugins: [
