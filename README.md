@@ -1,3 +1,25 @@
+# Linkbee
+
+Linkbee is a statically generated page with a design initially adapted
+from [LinkFree](https://github.com/MichaelBarney/LinkFree). The user
+information is specified in `gatsby-config.js` and the links are
+currently retreived from a menu that is managed in
+[Wings](https://docs.wings.dev/).
+
+## Configuration
+
+Information for connecting to the Wings API should be specified through
+environment variables, for example as follows using a `.env` file.
+```
+GATSBY_WINGS_APP_KEY=app_key_here
+GATSBY_WINGS_PROJECT=project_id_here
+GATSBY_WINGS_ENDPOINT=https://api.wings.dev
+```
+
+## Running
+
+To run for development use `npm start` and to build use `npm build`.
+
 ## License
 
 Copyright (C) 2020  Arjan Adriaanse
