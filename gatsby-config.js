@@ -4,6 +4,11 @@ module.exports = {
   siteMetadata: {
     title: `linkbee`,
     siteUrl: process.env.SITE_URL || process.env.URL || 'http://localhost:8000',
+    user: {
+      name: `user`,
+      link: `#`,
+      avatar: `#`
+    }
   },
   plugins: [
     {

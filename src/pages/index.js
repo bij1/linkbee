@@ -5,10 +5,7 @@ import Page from "../components/page.js"
 export default function Home({ data }) {
   return (
       <Page
-          user={{
-              name: "test",
-              avatar: "test.jpg"
-          }}
+          user={data.site.siteMetadata.user}
           links={data.wings.menu.items}
       />
   )
@@ -21,6 +18,15 @@ export const query = graphql`
         items {
           text
           url
+        }
+      }
+    }
+    site {
+      siteMetadata {
+        user {
+          name
+          link
+          avatar
         }
       }
     }
