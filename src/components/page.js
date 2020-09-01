@@ -1,6 +1,6 @@
 import React from "react"
 import Link from "./link.js"
-import styles from "./page.module.css"
+import styles from "./page.module.scss"
 
 const Page = ({ user, links }) =>
   <>
