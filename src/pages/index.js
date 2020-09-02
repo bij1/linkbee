@@ -1,13 +1,19 @@
 import React from "react"
 import { graphql } from 'gatsby'
 import Page from "../components/page.js"
+import Socials from "../components/socials.js"
 
 export default function Home({ data }) {
   return (
-      <Page
-          user={data.site.siteMetadata.user}
-          links={data.wings.menu.items}
-      />
+      <div>
+          <Page
+              user={data.site.siteMetadata.user}
+              links={data.wings.menu.items}
+          >
+          </Page>
+          <Socials></Socials>
+      </div>
+
   )
 }
 
