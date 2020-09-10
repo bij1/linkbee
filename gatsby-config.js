@@ -8,6 +8,13 @@ module.exports = {
       name: `@politiek_bij1`,
       link: `https://www.instagram.com/politiek_bij1/`,
       avatar: `avatar.png`
+    },
+    socialmedia: {
+      instagram: 'https://instagram.com/politiek_bij1',
+      youtube: 'https://www.youtube.com/channel/UCI1wgi8HoU-wAnuSPSTDDUA/featured',
+      linkedin: 'https://linkedin.com/company/BIJ1',
+      facebook: 'https://facebook.com/www.bij1.org',
+      twitter: 'https://twitter.com/politiekbij1'
     }
   },
   plugins: [

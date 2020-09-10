@@ -11,7 +11,9 @@ export default function Home({ data }) {
               links={data.wings.menu.items}
           >
           </Page>
-          <Socials></Socials>
+          <Socials
+            socialmedia={data.site.siteMetadata.socialmedia}
+          ></Socials>
       </div>
 
   )
@@ -33,6 +35,13 @@ export const query = graphql`
           name
           link
           avatar
+        }
+        socialmedia {
+         instagram
+         youtube
+         facebook
+         twitter
+         linkedin
         }
       }
     }

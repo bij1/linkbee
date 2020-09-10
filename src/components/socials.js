@@ -9,7 +9,7 @@ import {
     faLinkedinIn,
 } from '@fortawesome/free-brands-svg-icons'
 
-const Socials = () => (
+const Socials = ({socialmedia}) => (
     <main
         style={{
             maxWidth: '608px',
@@ -17,11 +17,11 @@ const Socials = () => (
         }}
     >
         <div className={styles.container}>
-            <a href="https://facebook.com/www.bij1.org" target="_blank"><FontAwesomeIcon icon={faFacebook} size="2x"/></a>
-            <a href="https://twitter.com/politiekbij1" target="_blank"><FontAwesomeIcon icon={faTwitter} size="2x" /></a>
-            <a href="https://instagram.com/politiek_bij1" target="_blank"><FontAwesomeIcon icon={faInstagram} size="2x" /></a>
-            <a href="" target="_blank"><FontAwesomeIcon icon={faYoutube} size="2x" /></a>
-            <a href="https://linkedin.com/company/BIJ1" target="_blank"><FontAwesomeIcon icon={faLinkedinIn} size="2x" /></a>
+            <a href={socialmedia.facebook} target="_blank"><FontAwesomeIcon icon={faFacebook} size="2x"/></a>
+            <a href={socialmedia.twitter} target="_blank"><FontAwesomeIcon icon={faTwitter} size="2x" /></a>
+            <a href={socialmedia.instagram} target="_blank"><FontAwesomeIcon icon={faInstagram} size="2x" /></a>
+            <a href={socialmedia.youtube} target="_blank"><FontAwesomeIcon icon={faYoutube} size="2x" /></a>
+            <a href={socialmedia.linkedin} target="_blank"><FontAwesomeIcon icon={faLinkedinIn} size="2x" /></a>
         </div>
     </main>
 )
